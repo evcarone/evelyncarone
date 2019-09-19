@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>My Portfolio</title>
+    <title>Evelyn Carone Profile</title>
     <!-- <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">  -->
 
     <style>
@@ -10,38 +10,75 @@
             background-color: lightgray;
         }
 
-        .wrapper {
+        .flex-wrapper {
+            padding: 0;
+            padding-right: 20px;
+            margin: 0;
             height: 100vh;
             display: flex;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: top;
         }
 
         .nav {
             width: 900px;
-            height: 100px;
+            height: 75px;
+            margin: 1px;
+            padding: 5px;
             background: white;
-            margin: 20px 0 0 0;
             border-bottom: 5px inset darkgray;
+        }
+        .footer {
+            width: 900px;
+            height: 50px;
+            margin: 1px;
+            padding: 5px;
+            background: darkgrey;
+            border-top: 5px inset  rgb(115, 194, 194);
         }
 
         .logobox {
-            margin: 20px;
-            padding: 10px;
-            position: absolute;
-            background: lightseagreen;
-            left: 40px;
-            top: 15px;
-            width: 220px;
-            text-align: center;
-            color: white;
+            margin-left: 20px;
+            padding: 5px;
+            background: rgb(115, 194, 194);
+
+            /* position: relative 20px; */
+            /* position: sticky 20px; */
+            /* position: absolute 20px 10px; */
+
+            width: 200px;
+            height: 100px;
+        }
+
+        .contentbox {
+            margin: 3px;
+            padding: 2px;
+            background: white;
+
+            width: 900px;
+            height: 600px;
+
+            text-align: left;
+            color: black;
             font-size: 2vh;
+
+            border-right: 5px inset darkgrey;
+            border-bottom: 5px inset darkgrey;
+            border-left: 5px outset darkgrey;
+            border-top: 5px outset darkgrey;
+
+        }
+        ul {
+            display: flex;
+            background-position: 100%;
+            padding-left: 500px;
         }
 
         li {
             list-style-type: none;
-            margin-top: 25px;
+            margin: 1px;
+            padding: 5px;
             font-size: 2vw;
         }
 
@@ -51,31 +88,36 @@
             padding: 2vh;
         }
 
-        ul {
-            display: flex;
-            background-position: 100%;
-            padding-left: 500px;
-        }
+        
     </style>
 </head>
 
 <body>
-    <header>
-        <div class="wrapper">
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li><a href="#About Me">About Me</a></li>
-                        <li> | </li>
-                        <li><a href="#Portfolio">Portfolio</a></li>
-                        <li> | </li>
-                        <li><a href="#Contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <wrapper class="flex-wrapper">
+        <!-- <logo class="logobox">
+            <h3>Evelyn</h3>
+        </logo> -->
 
+        <nav class="nav">
+            <ul>
+                <li><a href="#About Me">About</a></li>
+                <li> | </li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li> | </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <article class="contentbox">
+            <h3>my work bio</h3>
+            <p> blah blah blah</p>
+        </article>
+
+        <footer class="footer">
+            <p>my copyright</p>
+        </footer>
+
+    </wrapper>
 
 </body>
 
