@@ -68,8 +68,6 @@
 }
 ul {
     display: flex;
-    /* background-position: 100%; */
-    /* padding-left: 500px; */
 }
 
 li {
@@ -82,7 +80,7 @@ li {
 a {
     text-decoration: none;
     color: gray;
-    /* padding: 2vh; */
+    padding: 2vh;
 }
 image {
     max-height: 100px;
