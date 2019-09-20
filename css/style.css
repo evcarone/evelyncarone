@@ -1,13 +1,13 @@
 .body {
     padding: 0;
-    margin: 0;
+    margin: 1;
     background-color: white;
 }
 
 .flex-wrapper {
     padding: 0;
     padding-right: 20px;
-    margin: 1px;
+    /* margin: 1px; */
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -20,50 +20,38 @@
     width: 100%;
     height: 75px;
     background: lightgray;
-    border-bottom: 5px inset darkgray;
+    /* border-bottom: 5px inset darkgray; */
     justify-content: space-between;
     align-items: center;
 }
 .footer {
     width: 100%;
     height: 50px;
-    margin: 1px;
-    padding: 5px;
+    display: flex;
+    /* margin: 1px; */
+    /* padding: 5px; */
     background: lightgray;
     opacity: 20%;
-    border-top: 5px inset  rgb(115, 194, 194);
+    /* border-top: 5px inset  rgb(115, 194, 194); */
 }
-
-.logobox {
-    margin-left: 20px;
-    padding: 5px;
-    background: rgb(115, 194, 194);
-
-    /* position: relative 20px; */
-    /* position: sticky 20px; */
-    /* position: absolute 20px 10px; */
-
-    width: 200px;
-    height: 100px;
-}
-
 .contentbox {
-    margin: 3px;
-    padding: 2px;
+    /* margin: 3px; */
+    /* padding: 2px; */
     background: lightgray;
     opacity: 20%;
 
     width: 100%;
     height: 300px;
+    /* display: flex; */
 
     text-align: left;
     color: black;
     font-size: 2vh;
 
-    border-right: 5px inset darkgrey;
+    /* border-right: 5px inset darkgrey;
     border-bottom: 5px inset darkgrey;
     border-left: 5px outset darkgrey;
-    border-top: 5px outset darkgrey;
+    border-top: 5px outset darkgrey; */
 
 }
 ul {
