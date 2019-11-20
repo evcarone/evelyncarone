@@ -2,8 +2,17 @@
 <html>
 
 <head>
-    <title>Evelyn Carone Profile</title>
-    <!-- <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <style>
@@ -28,17 +37,52 @@
                     <li><a href="index.html">About</a></li>
                     <li> | </li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li> | </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <!-- <li> | </li> -->
+                    <!-- <li><a href="contact.html">Contact</a></li> -->
                 </ul>
             </nav>
 
-            <article class="contentbox">
-                <img class="image" src="assets/images/CE180.jpg">
-                <img class="image" src="assets/images/CE180.jpg">
-                <img class="image" src="assets/images/CE180.jpg">
-                <img class="image" src="assets/images/CE180.jpg">
-            </article>
+            <div class="container">
+                <!-- Setup HTML for the page to display the basic calendar -->
+                <div class="row" id="project_1">
+                        <div class="card col-6 col-s-1 col-xs-1" style="width: 18rem;">
+                                <img src="./assets/images/DayPlannerScreenShot.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Day Planner</h5>
+                                  <p class="card-text">An application to help manage your day-to-day appointments.</p>
+                                </div>
+                                <!-- <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Cras justo odio</li>
+                                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                                  <li class="list-group-item">Vestibulum at eros</li>
+                                </ul> -->
+                                <div class="card-body">
+                                  <a href="https://evcarone.github.io/dayplanner/" class="card-link">Planner App</a>
+                                  <a href="https://github.com/evcarone/dayplanner" class="card-link">Day Planner Source</a>
+                                </div>
+                              </div>
+
+                              <div class="card col-6 col-s-1 col-xs-1" style="width: 18rem;">
+                                    <h5 class="card-title"></h5> 
+                                    <h5 class="card-title"></h5>    
+                                <img src="./assets/images/PasswordGeneratorScreenShot.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Password Generator</h5>
+                                      <p class="card-text">Generate a secure password 8-128 characters long.</p>
+                                    </div>
+                                    <!-- <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Cras justo odio</li>
+                                      <li class="list-group-item">Dapibus ac facilisis in</li>
+                                      <li class="list-group-item">Vestibulum at eros</li>
+                                    </ul> -->
+                                    <div class="card-body">
+                                      <a href="https://evcarone.github.io/password-generator/" class="card-link">Password Generator</a>
+                                      <a href="https://github.com/evcarone/password-generator" class="card-link">Password Generator Source</a>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+            
 
             <footer class="footer">
                 <p>my copyright</p>
